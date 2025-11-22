@@ -5,8 +5,14 @@
 }
 :root {
   --bg-primary-color: #0c0c0c;
+  --bg-fill-color: #f0f0f0;
+  --bg-food-color: #ff6030;
+
   /* text Color */
   --text-primary-color: #f0f0f0;
+
+
+  
 
   /* spacing */
   --space-xs: 4px;
@@ -77,4 +83,12 @@ section .infos {
   /* width: 30px; */
   /* height: 30px; */
   border: 1px solid var(--border-primary-color);
+}
+
+.fill{
+  background-color: var(--bg-fill-color);
+}
+
+.food{
+  background-color: var(--bg-food-color);
 }
