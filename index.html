@@ -3,7 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Snake Game</title>
+    <title>Retro Snake</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -13,7 +16,7 @@
           <div class="info">
             <h3>
               High Score:
-              <span id="score">0</span>
+              <span id="high-score">0</span>
             </h3>
           </div>
           <div class="info">
@@ -25,12 +28,22 @@
           <div class="info">
             <h3>
               Time:
-              <span id="score">00-00</span>
+              <span id="time">00-00</span>
             </h3>
           </div>
         </div>
         <div class="board"></div>
       </section>
+      <div class="modal">
+        <div class="start-game">
+          <h3>Welcome the Jumanji</h3>
+          <button class="btn btn-start">Start Game</button>
+        </div>
+        <div class="game-over">
+          <h3>Game Over</h3>
+          <button class="btn btn-restart">Restart Game</button>
+        </div>
+      </div>
     </main>
     <script src="script.js"></script>
   </body>
